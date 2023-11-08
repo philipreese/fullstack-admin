@@ -22,7 +22,7 @@ export const tokensDark = {
     300: "#7a7f9d",
     400: "#4d547d",
     500: "#21295c",
-    600: "#191f45", // manually adjusted
+    600: "#191F45", // manually adjusted
     700: "#141937",
     800: "#0d1025",
     900: "#070812",
@@ -88,17 +88,17 @@ export const themeSettings = (mode) => {
         : {
             // palette values for light mode
             primary: {
-              ...tokensDark.primary,
+              ...tokensLight.primary,
               main: tokensDark.grey[50],
               light: tokensDark.grey[100],
             },
             secondary: {
-              ...tokensDark.secondary,
+              ...tokensLight.secondary,
               main: tokensDark.secondary[600],
               light: tokensDark.secondary[700],
             },
             neutral: {
-              ...tokensDark.grey,
+              ...tokensLight.grey,
               main: tokensDark.grey[500],
             },
             background: {
